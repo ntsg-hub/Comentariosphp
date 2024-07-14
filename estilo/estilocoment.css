@@ -1,0 +1,108 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(91, 82, 74);
+}
+
+/* Formulario */
+.test{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cajanom, form textarea {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none; /* Para sacar la pestañita del textarea que me arruina toda la pagina */
+}
+
+
+.enviar{
+    width: 25%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(91, 82, 74, 0.486);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.enviar:hover {
+    transition: 0.3s;
+    background-color: rgba(91, 82, 74, 0.808);
+}
+
+/* Fin Formulario */
+
+.subtitulo{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Comentarios */
+.comentarios {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    
+}
+
+.cajas {
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.664);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Fin comentarios */
+
+/* Css para los comentarios */
+
+.cajas:hover {
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+.comentario{
+    text-align: center;
+    margin: 10px;
+}
+
+.nombre {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Fin comentarios */
